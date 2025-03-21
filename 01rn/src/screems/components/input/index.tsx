@@ -11,7 +11,7 @@ export function Input({ icon }: Props) {
     return (
        <View>
         <Feather name={icon} size={24} color="red"/>
-       <TextInput {style=styles.control}
+       <TextInput style={styles.control}
        />
        </View>
     );

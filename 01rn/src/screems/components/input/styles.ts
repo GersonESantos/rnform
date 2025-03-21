@@ -5,5 +5,8 @@ export const styles = StyleSheet.create({
         
         width: "100%",
     },
-    control
+    control:{     
+    flex: 1,
+    height: 50,
+    width    : "100%",}
     });
