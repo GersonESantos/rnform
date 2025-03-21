@@ -1,6 +1,6 @@
 import{ Text, View} from 'react-native';
 import { styles } from './styles';
-import { Input } from '../components/input';
+import { Input } from '../../components/input';
 export function FormStepOne() {
   return (
     <View style={styles.container}>

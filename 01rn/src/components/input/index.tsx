@@ -3,8 +3,7 @@ import { Feather } from '@expo/vector-icons';
 import { styles } from './styles';
 
 type Props = {
-    icon: keyof typeof Feather.glyphMap;
-    placeholder: string;
+    icon: keyof typeof Feather.glyphMap
 }
 
 export function Input({ icon }: Props) {
